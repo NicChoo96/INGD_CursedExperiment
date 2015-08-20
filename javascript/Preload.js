@@ -41,9 +41,9 @@ TopDownGame.Preload.prototype = {
             'assets/Characters/newStuff/hunter/hunter.xml', 24);
         this.load.atlasXML('Scientist', 'assets/Characters/newStuff/scientist/scientist.png',
             'assets/Characters/newStuff/scientist/scientist.xml', 36);
-        this.load.atlasXML('Enemy', 'assets/Characters/NewStuff/Zombie/Zombie.png',
+        this.load.atlasXML('Enemy', 'assets/Characters/newStuff/Zombie/Zombie.png',
             'assets/Characters/NewStuff/Zombie/Zombie.xml');
-        this.load.atlasXML('necromancer', 'assets/Characters/NewStuff/Necromancer/necromancer.png',
+        this.load.atlasXML('necromancer', 'assets/Characters/newStuff/Necromancer/necromancer.png',
             'assets/Characters/NewStuff/Necromancer/Necromancer.xml');
     },
 

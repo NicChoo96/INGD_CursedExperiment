@@ -1,8 +1,0 @@
-<TextureAtlas imagePath="Necromancer.png">
-	<SubTexture name="NecromancerIdle_000.png" x="0" y="919" width="343" height="459"/>
-	<SubTexture name="NecromancerIdle_001.png" x="345" y="0" width="343" height="458"/>
-	<SubTexture name="NecromancerIdle_002.png" x="0" y="1380" width="343" height="457"/>
-	<SubTexture name="NecromancerIdle_003.png" x="345" y="460" width="343" height="455"/>
-	<SubTexture name="NecromancerIdle_004.png" x="0" y="460" width="343" height="457"/>
-	<SubTexture name="NecromancerIdle_005.png" x="0" y="0" width="343" height="458"/>
-</TextureAtlas>
