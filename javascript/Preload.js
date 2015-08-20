@@ -38,7 +38,7 @@ TopDownGame.Preload.prototype = {
 		this.load.audio('ScreamSound', 'assets/Scream.wav');
 
         this.load.atlasXML('Hunter', 'assets/Characters/NewStuff/Hunter/Hunter.png',
-            'assets/Characters/newStuff/Hunter/Hunter.xml', 24);
+            'assets/Characters/NewStuff/Hunter/Hunter.xml', 24);
         this.load.atlasXML('Scientist', 'assets/Characters/NewStuff/Scientist/Scientist.png',
             'assets/Characters/NewStuff/Scientist/Scientist.xml', 36);
         this.load.atlasXML('Enemy', 'assets/Characters/NewStuff/Zombie/Zombie.png',
