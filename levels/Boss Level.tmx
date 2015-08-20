@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" nextobjectid="7">
+ <tileset firstgid="1" name="Walls" tilewidth="16" tileheight="16">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Dungeon_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="961" name="Floor" tilewidth="16" tileheight="16">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Inside_A2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="1729" name="Inside" tilewidth="32" tileheight="32">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Inside_C.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1985" name="Inside2" tilewidth="32" tileheight="32">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Outside_B.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2241" name="Inside3" tilewidth="32" tileheight="32">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Inside_B.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2497" name="Dunegon" tilewidth="16" tileheight="16">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Dungeon_B.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3521" name="Misc" tilewidth="16" tileheight="16">
+  <image source="../img/Potential Use/!Chest.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="3905" name="Hexagrams" tilewidth="16" tileheight="16">
+  <image source="../img/Potential Use/!Hexagram.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="4289" name="DungeonFloor" tilewidth="16" tileheight="16">
+  <image source="C:/Program Files (x86)/Steam/steamapps/common/RPGVXAce/rtp/Graphics/Tilesets/Dungeon_A1.png" width="512" height="384"/>
+ </tileset>
+ <layer name="Floor" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlEsOgjAURRmxN/9ONG7B1s8M91DGAlsQv0twaV6Tkty8lNLGDiQ5uTS9HF46aJFnWSE4iZTvrs43a9o/EEfHP0KZgTlYJMgl2IvZfgGu9x35AM8E+QL//oww4xhMEuQUbIEOpHSsDeXO+gx1VYSf+8rhU45OTEpfbHYeI+bjc1Ee5EzynNhXip4ZcIf6NK1NAH0+3luB9QCbCN8577+PuvuuCfSV1leRoyJqmz6fzuPm8/kuoAVXSp+vo7H9lr67gQ9a7K97
+  </data>
+ </layer>
+ <layer name="Floor2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhASJ5GRjioDgeiokFs3gZEpAx0KwFQPqAERvDgYlsDAtgmFjzkPUAzUiIg5oH5DNMBuLNUEwsgKmfDDHzALJ5QPEEkJo9JPgXpnYz1Lx4NPOA8gnEmwY3cwGyeQCcGC1j
+  </data>
+ </layer>
+ <layer name="Walls" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTZWJgEIViMSgWJYFG12uKhM2g2JQEGl3vSAOKQD8rAbEyEKswUc53BGInIHYGYhcq8EfBKBgFowAGANpZDl8=
+  </data>
+ </layer>
+ <layer name="Furniture" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu4OVkYODjxK/mDgdhc34RoWY4gmheBoYYII4F4jggjgfiBDQ2NrW49FUDcQ0Q1wJxHRDXA3EDGnstNL6Q1eLSNwpGDpBiJ029NAH1WiSap02i+lFAfwAATk4Uqg==
+  </data>
+ </layer>
+ <layer name="Interactables" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgZwJGfgcGJn3rmRQLNiqKieaNgFIyCUYANDLayawofw4HJQAxiAwAvfAWo
+  </data>
+ </layer>
+ <objectgroup name="Collision">
+  <object id="1" x="240" y="192" width="32" height="48"/>
+  <object id="2" x="48" y="192" width="32" height="48"/>
+ </objectgroup>
+</map>

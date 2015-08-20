@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="13" tilewidth="64" tileheight="64" nextobjectid="67">
+ <tileset firstgid="1" name="Tiles2" tilewidth="64" tileheight="64">
+  <image source="Tiles/Tiles2.png" trans="00ff55" width="320" height="256"/>
+ </tileset>
+ <layer name="backgroundLayer" width="15" height="13" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJwTYGBgEIBiXiDmA2J+IObEI4YNj+od1TvU9QIAqigK3w==
+  </data>
+ </layer>
+ <layer name="blockedLayer" width="15" height="13">
+  <data encoding="base64" compression="zlib">
+   eJyVUtEKACEI24sV1P9/bwUFa2jdDUZhzpmVAeTBMtjW+oVp6SYZ86wOGmJs7Q0mOXvPWqN+TDy9+Mu3Ut1bz1zPJMb928rxfJP47rlpDs9Z+ys4ffWu3huphwdPy7V57hXne0e+N0Ta1x8Ezv/4R9scbQe2pANK
+  </data>
+ </layer>
+ <objectgroup name="objectsLayer">
+  <object id="9" name="plate1" type="plate" gid="17" x="768" y="704" width="64" height="64"/>
+  <object id="12" name="plate2" type="plate" gid="17" x="128" y="192" width="64" height="64"/>
+  <object id="14" name="plate3" type="plate" gid="17" x="256" y="192" width="64" height="64"/>
+  <object id="17" name="Z3" type="zombieS" x="64" y="256" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="19" name="necromancer" type="necromancer" x="192" y="64" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="20" name="playerStart" type="playerStart" x="640" y="704" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="21" name="H1" type="hunter" x="640" y="512" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="22" name="H1P2" type="path" x="384" y="512" width="64" height="64"/>
+  <object id="23" name="H1P1" type="path" x="768" y="512" width="64" height="64"/>
+  <object id="27" name="Z2" type="zombieM" x="192" y="320" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="28" name="Z4" type="zombieS" x="320" y="384" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="29" name="Z2P2" type="path" x="192" y="256" width="64" height="64"/>
+  <object id="30" name="Z2P1" type="path" x="192" y="512" width="64" height="64"/>
+  <object id="31" name="Z1" type="zombieS" x="448" y="640" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="32" name="Z6" type="zombie" x="448" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="34" name="plate4" type="plate" gid="17" x="512" y="128" width="64" height="64"/>
+  <object id="38" name="Z5" type="zombieM" x="512" y="256" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="40" name="Z5P1" type="path" x="512" y="192" width="64" height="64"/>
+  <object id="42" name="Z5P2" type="path" x="512" y="320" width="64" height="64"/>
+  <object id="44" name="H2" type="hunter" x="704" y="64" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="45" name="H2P2" type="path" x="576" y="64" width="64" height="64"/>
+  <object id="49" name="H2P1" type="path" x="768" y="64" width="64" height="64"/>
+  <object id="51" name="orb2" type="orbD" gid="2" x="128" y="128" width="64" height="64"/>
+  <object id="52" name="orb4" type="orbD" gid="2" x="256" y="128" width="64" height="64"/>
+  <object id="54" name="orb3" type="orbD" gid="2" x="192" y="192" width="64" height="64"/>
+  <object id="56" name="door1" type="door" gid="12" x="832" y="256" width="64" height="64"/>
+  <object id="58" name="killPlayer" type="killPlayer" x="128" y="256" width="64" height="64"/>
+  <object id="60" name="killPlayer" type="killPlayer" x="320" y="448" width="64" height="64"/>
+  <object id="62" name="killPlayer" type="killPlayer" x="448" y="64" width="64" height="64"/>
+  <object id="64" name="killPlayer" type="killPlayer" x="384" y="640" width="64" height="64"/>
+  <object id="66" name="door1" type="door" gid="12" x="320" y="576" width="64" height="64"/>
+ </objectgroup>
+</map>
