@@ -35,6 +35,8 @@ TopDownGame.Menu.prototype = {
 						}
 					}
 					if(instructionPage == 9){
+						showInstruction = false;
+						instructionPage = 0;
 						TopDownGame.game.state.start('Game');
 					}
 				}
