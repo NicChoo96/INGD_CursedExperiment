@@ -37,13 +37,13 @@ TopDownGame.Preload.prototype = {
 		this.load.audio('PlateSound', 'assets/PlateStep.wav');
 		this.load.audio('ScreamSound', 'assets/Scream.wav');
 
-        this.load.atlasXML('Hunter', 'assets/Characters/newStuff/hunter/hunter.png',
-            'assets/Characters/newStuff/hunter/hunter.xml', 24);
-        this.load.atlasXML('Scientist', 'assets/Characters/newStuff/scientist/scientist.png',
-            'assets/Characters/newStuff/scientist/scientist.xml', 36);
-        this.load.atlasXML('Enemy', 'assets/Characters/newStuff/Zombie/Zombie.png',
+        this.load.atlasXML('Hunter', 'assets/Characters/NewStuff/Hunter/Hunter.png',
+            'assets/Characters/newStuff/Hunter/Hunter.xml', 24);
+        this.load.atlasXML('Scientist', 'assets/Characters/NewStuff/Scientist/Scientist.png',
+            'assets/Characters/NewStuff/Scientist/Scientist.xml', 36);
+        this.load.atlasXML('Enemy', 'assets/Characters/NewStuff/Zombie/Zombie.png',
             'assets/Characters/NewStuff/Zombie/Zombie.xml');
-        this.load.atlasXML('necromancer', 'assets/Characters/newStuff/Necromancer/necromancer.png',
+        this.load.atlasXML('necromancer', 'assets/Characters/NewStuff/Necromancer/Necromancer.png',
             'assets/Characters/NewStuff/Necromancer/Necromancer.xml');
     },
 
